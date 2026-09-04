@@ -12,12 +12,13 @@ Red = 80
 Green = 106  
 Blue = 152  
 
+I robimy tak dla każdego piksela  
+
 #WZÓR  
 wzór na skalowanie w kompresji 3:  
 [round((c / 10) * 255) for c in colorDane]  
   
-I robimy tak dla każdego piksela  
-  
+
 #Przy kompresji 3:  
 Robimy to samo ale zamiast robić pakiety po 2 liczby robimy po 1 np: 3 1 4 zamiast 31 41 69  
 
